@@ -11,3 +11,9 @@
     -fx-text-fill: #242d35;
     -fx-font-size: 14px;
 }
+
+.borderPane{
+	-fx-background-color: 
+		 rgba(46,119,192,0.08),
+		 linear-gradient( #93cede 0%, #75bdd1 81%, #49a5bf 93%, #49a5bf 100%);
+}
