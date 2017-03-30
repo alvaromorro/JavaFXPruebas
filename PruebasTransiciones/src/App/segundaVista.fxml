@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
-
 <?import javafx.scene.text.Text?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1">
-		<center>
-         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Esta es la segunda vista" />
-       </center>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <center>
+      <FlowPane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="313.0" prefWidth="275.0">
+               <children>
+                  <Button layoutX="105.0" layoutY="268.0" mnemonicParsing="false" text="Button" />
+                  <Text layoutX="108.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pregunta " />
+                  <Text layoutX="63.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texto de la pregunta" />
+                  <RadioButton layoutX="31.0" layoutY="182.0" mnemonicParsing="false" text="RadioButton" />
+                  <RadioButton layoutX="31.0" layoutY="218.0" mnemonicParsing="false" text="RadioButton" />
+               </children>
+            </Pane>
+         </children>
+      </FlowPane>
+   </center>
 </BorderPane>
-

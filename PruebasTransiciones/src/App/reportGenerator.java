@@ -51,6 +51,7 @@ public class reportGenerator {
 			reportBuilder.setDataSource(createDataSource());
 
 			reportBuilder.show();
+			
 
 		} catch (DRException e) {
 
@@ -88,9 +89,7 @@ public class reportGenerator {
 		}
 
 		@Override
-
 		protected DRIDataType<?, ?> getFieldType(String name) {
-
 			if (name.equals("item")) {
 				return type.stringType();
 			}
@@ -107,22 +106,16 @@ public class reportGenerator {
 		}
 
 		@Override
-
 		protected String getFieldLabel(String name) {
-
 			if (name.equals("item")) {
-
 				return "Item";
 			}
-
 			if (name.equals("orderdate")) {
 				return "Order date";
 			}
-
 			if (name.equals("quantity")) {
 				return "Quantity";
 			}
-
 			if (name.equals("unitprice")) {
 				return "Unit price";
 			}
